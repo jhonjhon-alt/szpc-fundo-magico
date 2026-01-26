@@ -1,0 +1,129 @@
+body {
+    color: #ffffff;
+    background: url(../images/Captura\ de\ tela\ 2026-01-22\ 224848.png);
+    font-family: "Roboto Mono", monospace;
+    line-height: 1.4;
+    padding: 32px 24px;
+}
+
+
+.header {
+    text-align: center;
+    margin-bottom: 48px;
+    z-index: 99;
+}
+
+
+.header h1 {
+    margin-bottom: 16px;
+    font-size: 48px;
+}
+
+
+header .subtitle {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 19px;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+    z-index: 99;
+}
+
+
+.card {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    margin-bottom: 32px;
+    border-radius: 16px;
+    padding: 32px;
+}
+
+
+.card-header {
+    text-align: center;
+    margin-bottom: 32px;
+    font-size: 20px;
+
+}
+
+.form-group textarea {
+    background-color: rgba(255, 255, 255, 0.05);
+    color: #ffffff;
+    width: 100%;
+    min-height: 120px;
+    padding: 16px;
+    border: 1px solid #474646;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-bottom: 20px;
+
+}
+
+.form-group textarea:focus {
+    outline: none;
+    border-color: #a655f7;
+
+}
+
+.form-group textarea::placeholder {
+    color: #a19e9e;
+
+}
+
+
+.form-group .btn-magic {
+    width: 100%;
+    padding: 16px 32px;
+    background: linear-gradient(90deg, #400976 0%, #ff80aa 100%);
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3 ease;
+
+}
+
+
+.form-group .btn-magic:hover {
+    transform: translateY(-2px);
+
+}
+
+.preview-card {
+    display: none;
+}
+
+.code-grid {
+    display: flex;
+    gap: 24px;
+}
+
+.code-card {
+    background-color: rgb(46, 45, 45);
+    border: 1px solid #ffffff33;
+    border-radius: 16px;
+    padding: 24px;
+    width: 50%;
+}
+
+.code-title {
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+
+.code-block {
+    background-color: #121110;
+    color: #00f2ff;
+    border-radius: 8px;
+    padding: 16px;
+    font-size: 14px;
+
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
